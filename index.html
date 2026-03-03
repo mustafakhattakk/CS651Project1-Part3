@@ -23,13 +23,21 @@
         VisionForge AI
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMain"
+        aria-controls="navMain"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navMain">
         <ul class="navbar-nav ms-auto gap-lg-2 align-items-lg-center">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           <li class="nav-item"><a class="btn btn-sm btn-brand ms-lg-2" href="signin.html">Sign In</a></li>
@@ -45,22 +53,22 @@
         <div class="row g-0 align-items-stretch">
           <div class="col-lg-7">
             <div class="hero-inner">
-              <h1>Turn photos into insights with Computer Vision + AI.</h1>
+              <h1>Computer Vision that turns images into decisions.</h1>
               <p>
-                VisionForge AI helps teams organize, analyze, and search image collections using detection,
-                labeling, and smart summaries — designed to evolve into your Project 2 ERN SPA.
+                VisionForge AI helps teams tag, search, and understand image collections at scale. We combine
+                reliable detection with practical summaries so visual data becomes organized, searchable, and usable.
               </p>
 
               <div class="d-flex flex-wrap gap-2 mb-3">
-                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Google Vision</span>
-                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Gemini</span>
-                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Cloud DB</span>
-                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">ERN Stack</span>
+                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Vision APIs</span>
+                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Model Summaries</span>
+                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Search + Analytics</span>
+                <span class="badge rounded-pill text-bg-dark border" style="border-color: rgba(255,255,255,0.18)!important;">Cloud Deployment</span>
               </div>
 
               <div class="cta">
-                <a class="btn btn-brand px-4" href="signin.html">Try the Demo</a>
-                <a class="btn btn-outline-light px-4" href="#features" data-scroll="true">See Features</a>
+                <a class="btn btn-brand px-4" href="signin.html">Client Portal</a>
+                <a class="btn btn-outline-light px-4" href="#features" data-scroll="true">Explore Capabilities</a>
                 <button class="btn btn-outline-light px-4" onclick="copyEmail()">Copy Email</button>
               </div>
 
@@ -71,20 +79,20 @@
               <div class="mt-4 row g-2">
                 <div class="col-6 col-lg-4">
                   <div class="card-glass py-3 text-center">
-                    <div class="fw-semibold">Fast</div>
-                    <div class="small text-white-50">API-first pipeline</div>
+                    <div class="fw-semibold">Fast setup</div>
+                    <div class="small text-white-50">Integrates in days</div>
                   </div>
                 </div>
                 <div class="col-6 col-lg-4">
                   <div class="card-glass py-3 text-center">
-                    <div class="fw-semibold">Searchable</div>
-                    <div class="small text-white-50">Labels + text + tags</div>
+                    <div class="fw-semibold">Accurate</div>
+                    <div class="small text-white-50">Consistent labeling</div>
                   </div>
                 </div>
                 <div class="col-12 col-lg-4">
                   <div class="card-glass py-3 text-center">
-                    <div class="fw-semibold">Cloud-ready</div>
-                    <div class="small text-white-50">Run / GAE deploy</div>
+                    <div class="fw-semibold">Deployable</div>
+                    <div class="small text-white-50">Cloud-ready stack</div>
                   </div>
                 </div>
               </div>
@@ -104,8 +112,8 @@
     <div class="container container-narrow">
       <div class="section-title">
         <div>
-          <h2>What we build</h2>
-          <p>Designed to match Project 2 requirements (Vision + Gemini + DB + Cloud).</p>
+          <h2>What we deliver</h2>
+          <p>Practical tools for teams that work with large volumes of images.</p>
         </div>
       </div>
 
@@ -115,8 +123,8 @@
             <div class="feature">
               <img src="Images/icon-vision.png" alt="Vision">
               <div>
-                <h3>Vision Analysis</h3>
-                <p>Detect objects, labels, text, landmarks—turn images into structured data.</p>
+                <h3>Automated Tagging</h3>
+                <p>Detect objects, scenes, and text to produce consistent tags across your library.</p>
               </div>
             </div>
           </div>
@@ -127,8 +135,8 @@
             <div class="feature">
               <img src="Images/icon-analytics.png" alt="Analytics">
               <div>
-                <h3>Smart Insights</h3>
-                <p>Trends + categories + confidence scores for dashboards and reporting.</p>
+                <h3>Insights & Trends</h3>
+                <p>Group similar images, spot patterns, and surface what’s changing over time.</p>
               </div>
             </div>
           </div>
@@ -139,8 +147,8 @@
             <div class="feature">
               <img src="Images/icon-cloud.png" alt="Cloud">
               <div>
-                <h3>Cloud Storage</h3>
-                <p>Save results in Firestore/Datastore so users see history + comparisons.</p>
+                <h3>Searchable Storage</h3>
+                <p>Store results in a structured format so teams can query and reuse them later.</p>
               </div>
             </div>
           </div>
@@ -149,10 +157,10 @@
         <div class="col-md-6 col-lg-3">
           <div class="card-glass">
             <div class="feature">
-              <img src="Images/icon-ai.png" alt="Gemini">
+              <img src="Images/icon-ai.png" alt="Summaries">
               <div>
-                <h3>Gemini Summaries</h3>
-                <p>Generate captions, explanations, and “why this matters” outputs.</p>
+                <h3>Readable Summaries</h3>
+                <p>Generate short descriptions that make image content easier to review and share.</p>
               </div>
             </div>
           </div>
@@ -160,7 +168,7 @@
       </div>
 
       <div class="mt-4 preview">
-        <img src="Images/dashboard.jpg" alt="Dashboard preview">
+        <img src="Images/dashboard.jpg" alt="Dashboard preview" loading="lazy">
       </div>
     </div>
   </section>
@@ -171,33 +179,33 @@
       <div class="section-title">
         <div>
           <h2>How it works</h2>
-          <p>A clean pipeline you can diagram in your proposal.</p>
+          <p>A simple workflow that fits into existing systems.</p>
         </div>
       </div>
 
       <div class="row g-3">
         <div class="col-md-6 col-lg-3">
           <div class="card-glass h-100">
-            <h3 style="font-size:1.05rem;margin:0 0 8px;">1) Connect Photos</h3>
-            <p class="text-white-50 mb-0">User authenticates with Pinterest / Google Photos to read images.</p>
+            <h3 style="font-size:1.05rem;margin:0 0 8px;">1) Ingest</h3>
+            <p class="text-white-50 mb-0">Connect a folder, drive, or source your team already uses.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card-glass h-100">
-            <h3 style="font-size:1.05rem;margin:0 0 8px;">2) Filter New</h3>
-            <p class="text-white-50 mb-0">Skip images already processed (URL exists in database).</p>
+            <h3 style="font-size:1.05rem;margin:0 0 8px;">2) Analyze</h3>
+            <p class="text-white-50 mb-0">Run vision detection and extract labels, text, and key attributes.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card-glass h-100">
-            <h3 style="font-size:1.05rem;margin:0 0 8px;">3) Vision + Gemini</h3>
-            <p class="text-white-50 mb-0">Run detection + summarization to create usable metadata.</p>
+            <h3 style="font-size:1.05rem;margin:0 0 8px;">3) Summarize</h3>
+            <p class="text-white-50 mb-0">Generate short notes that help reviewers understand content quickly.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card-glass h-100">
-            <h3 style="font-size:1.05rem;margin:0 0 8px;">4) Store + Explore</h3>
-            <p class="text-white-50 mb-0">Save results to cloud DB, then show insights in the SPA.</p>
+            <h3 style="font-size:1.05rem;margin:0 0 8px;">4) Search</h3>
+            <p class="text-white-50 mb-0">Browse by tags and keywords, then export insights when needed.</p>
           </div>
         </div>
       </div>
@@ -205,11 +213,11 @@
       <div class="mt-4 card-glass">
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
           <div>
-            <div class="fw-semibold">Ready for Project 2</div>
-            <div class="text-white-50 small">This static site becomes the launchpad for your ERN SPA.</div>
+            <div class="fw-semibold">Get in touch</div>
+            <div class="text-white-50 small">Tell us what you’re trying to automate and we’ll suggest a clean approach.</div>
           </div>
           <div class="d-flex gap-2">
-            <a class="btn btn-brand" href="about.html">Meet the Team</a>
+            <a class="btn btn-brand" href="about.html">About VisionForge</a>
             <a class="btn btn-outline-light" href="contact.html">Contact</a>
           </div>
         </div>
@@ -222,7 +230,7 @@
   <footer class="footer">
     <div class="container container-narrow d-flex flex-wrap justify-content-between align-items-center gap-2">
       <div>© <span id="year"></span> VisionForge AI</div>
-      <div class="small text-white-50">Innovating with AI & Computer Vision</div>
+      <div class="small text-white-50">Computer Vision • ML • Cloud</div>
     </div>
   </footer>
 
