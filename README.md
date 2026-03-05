@@ -136,7 +136,6 @@ https://mustafakhattakk.github.io/CS651Project1/
 # Demo Videos
 
 Part 2 Deployment Video
- 
 https://youtu.be/qPmFDlnjC2s
 
 
