@@ -1,7 +1,7 @@
 # VisionForge AI – CS651 Project 1
 
 VisionForge AI is a responsive startup-style web application designed to simulate an AI-powered image captioning platform.  
-The website demonstrates modern web design, containerization, and cloud deployment using Docker and AWS.
+The website demonstrates modern web design, containerization, and cloud deployment using Docker & AWS.
 
 This project was developed as part of **CS651 – Web Systems**.
 
